@@ -1,0 +1,15 @@
+package paquete2;
+
+public class gato {
+
+	String color="";
+	String raza ="";
+	String sexo ="";
+	int edad =0;
+	float peso =0;
+	
+	public void maullar() {
+		
+	}
+	
+}

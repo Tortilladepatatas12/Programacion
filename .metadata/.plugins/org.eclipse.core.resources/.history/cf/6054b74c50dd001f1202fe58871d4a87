@@ -1,0 +1,14 @@
+package orientacionAobjetos;
+
+public class Pokemon {
+
+String nombre;
+int nivel;
+String tipo;
+
+String convierteEnCadena() {
+String cadena = "Pókemon: "+nombre +" "+nivel+" " +tipo;
+return cadena;
+}
+	
+}

@@ -1,0 +1,10 @@
+package orientacionAobjetos;
+
+public class Pokemon {
+
+String nombre;
+int nivel;
+String tipo;
+
+	
+}

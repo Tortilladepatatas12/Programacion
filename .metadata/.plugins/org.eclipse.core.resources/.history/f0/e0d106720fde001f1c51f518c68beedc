@@ -1,0 +1,15 @@
+package orientacionAobjetos;
+
+public class Producto {
+
+	String nombre = "";
+	int numUnidades =0;
+	float precioVenta = 0;
+}
+
+boolean PedirStock() {
+	
+	boolean Stock = true;
+	
+	
+}

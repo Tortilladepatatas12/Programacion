@@ -1,0 +1,6 @@
+System.out.println("¿Cuánto vale tu producto?");
+		int producto = input.nextInt();
+		double preciodescuento = (producto*descuento);
+		double preciofinal=(producto-preciodescuento);
+		System.out.println("El precio final del producto con el descuento es:");
+		System.out.println(preciofinal);

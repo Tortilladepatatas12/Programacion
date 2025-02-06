@@ -1,0 +1,10 @@
+package orientacionAobjetos;
+
+public class Alumno {
+
+String nombre = "";
+String dni = "";
+float nota = 0 ;
+
+	
+}

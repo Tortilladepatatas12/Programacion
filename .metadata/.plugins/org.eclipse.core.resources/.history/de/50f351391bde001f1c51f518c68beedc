@@ -1,0 +1,13 @@
+package orientacionAobjetos;
+
+import paquete2.Animal;
+
+public class GestionAnimales {
+
+	public static void main(String[] args) {
+
+		Animal Perro = new Animal();
+
+	}
+
+}

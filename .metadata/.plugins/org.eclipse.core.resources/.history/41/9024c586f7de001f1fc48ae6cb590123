@@ -1,0 +1,27 @@
+package paquete2;
+
+
+
+public class GestionaGato {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 Gato gata1 = new Gato();
+		 gata1.sexo = "hembra";
+		 
+		 Gato gata2 = new Gato();
+		 gata1.sexo = "hembra";
+		 
+		 Gato gata3 = new Gato();
+		 gata1.sexo = "macho";
+		 
+		 gata1.maulla();
+		 gata2.ronronea();
+		 gata1.come("pescado");
+		
+		
+	}
+
+}

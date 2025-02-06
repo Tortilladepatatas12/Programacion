@@ -1,0 +1,11 @@
+package paquete2;
+
+
+public class Animal {
+
+	String tipo;
+	public String nombre;
+	private int edad;
+	
+	
+}

@@ -1,0 +1,39 @@
+package paquete2;
+
+public class Gato {
+
+	String color = "";
+	String raza = "";
+	String sexo = "";
+	int edad = 0;
+	float peso = 0;
+
+	public void maulla() {
+
+		System.out.println("miauuuu");
+
+	}
+
+	public void ronronea() {
+
+		System.out.println("rrrrrrr");
+
+	}
+
+	public void come(String comida) {
+
+		if (comida.equals("pescado")) {
+			System.out.println("Yummy Yummy ");
+		} else {
+			System.out.println("Mejor no ");
+		}
+	}
+
+	
+	public void pelear(String sexo) {
+		
+		if()
+		
+	}
+	
+}
