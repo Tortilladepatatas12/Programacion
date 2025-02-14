@@ -25,13 +25,26 @@ public class Automovil {
 	public void setNumRuedas(int numRuedas) {
 		this.numRuedas = numRuedas;
 	}
-	public String getCalificacionEcologica() {
-		return calificacionEcologica;
+
+	private enum CalificacionEco{
+		
+		ECO,O,B,C;	
 	}
-	public void setCalificacionEcologica(String calificacionEcologica) {
-		this.calificacionEcologica = calificacionEcologica;
+	
+
+
+		protected CalificacionEco getEco() {
+		return eco;
+	}
+	protected void setEco(CalificacionEco eco) {
+		if (calificacionEcologica.equals(CalificacionEco.ECO))
+		this.eco = eco;
 	}
 
-	
+
+
+
+
+	CalificacionEco eco = CalificacionEco.ECO;
 	
 }

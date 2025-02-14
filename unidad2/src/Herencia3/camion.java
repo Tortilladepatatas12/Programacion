@@ -1,12 +1,12 @@
 package Herencia3;
 
-public class Camion extends Vehiculo {
+public class camion extends Vehiculo {
     private int tonelajeKilos;
     private int numPasajeros;
     private int numEjes;
 
     // Constructor
-    public Camion(String dueno, int numPuertas, int numRuedas, int tonelajeKilos, int numPasajeros, int numEjes) {
+    public camion(String dueno, int numPuertas, int numRuedas, int tonelajeKilos, int numPasajeros, int numEjes) {
         super(dueno, numPuertas, numRuedas);  // Llamada al constructor de la clase padre (Vehiculo)
         this.tonelajeKilos = tonelajeKilos;
         this.numPasajeros = numPasajeros;
