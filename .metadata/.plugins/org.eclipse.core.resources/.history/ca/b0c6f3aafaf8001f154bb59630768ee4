@@ -1,0 +1,13 @@
+package modelo.mascota;
+
+public abstract class Aves extends Mascotas {
+
+	private String pico;
+	private String vuela;
+	
+	public String vuela(){
+		
+		return vuela;
+	}
+	
+}

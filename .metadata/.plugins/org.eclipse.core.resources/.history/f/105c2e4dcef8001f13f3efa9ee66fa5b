@@ -1,0 +1,10 @@
+package modelo;
+
+public abstract class Animal {
+
+	public abstract String getSonidoQueEmite();
+	public abstract String getAlimento();
+		
+	}
+	
+}

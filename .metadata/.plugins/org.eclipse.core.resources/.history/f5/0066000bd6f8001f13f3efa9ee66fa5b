@@ -1,0 +1,27 @@
+package modelo.mascota;
+
+import java.time.LocalDate;
+
+public abstract class Mascotas {
+
+	String nombre;
+	int edad;
+	String estado;
+	LocalDate fechaNacimiento;
+	
+	public abstract String muestra();
+
+	public LocalDate cumpleaños() {
+		return fechaNacimiento;
+	}
+	
+	public boolean morir(){
+		
+		return true;
+	}
+	
+	public abstract boolean habla();
+	
+	
+	
+}
